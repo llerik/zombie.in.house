@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="26" height="26" tilewidth="96" tileheight="96" infinite="0" nextlayerid="11" nextobjectid="55">
+ <tileset firstgid="1" name="textures" tilewidth="96" tileheight="96" spacing="2" margin="2" tilecount="100" columns="10">
+  <image source="textures.png" width="1024" height="1024"/>
+ </tileset>
+ <layer id="1" name="background" width="26" height="26">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAE+3DQQ0AAAwDoTNU//YmYx9IWDVVVX16UZaiapAKAAA=
+  </data>
+ </layer>
+ <layer id="2" name="wall" width="26" height="26">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAE92WUQrAIAxDe5t9ef/r7WsgJWljXXGsUBid5qmLZcPMxg/zakrEeWJ+3omMw+aw3OUwjag+s7s4aBzj+PUoWhXOavh53k9VTqSrchRvI13mP2U/Fa+hmsJh3kD+rXLeiK/0HXRGkVbVB9G3QpxoDUo/yNaf1Tv6AepVK/cn258f72tZP1A00LvOc2M9/vT96cjT/1ddeQPGDosBkAoAAA==
+  </data>
+ </layer>
+ <objectgroup id="5" name="players">
+  <object id="24" name="player" type="player" x="288" y="2112" width="96" height="96"/>
+  <object id="25" name="player" type="player" x="2016" y="384" width="96" height="96"/>
+ </objectgroup>
+ <objectgroup id="6" name="enemies">
+  <object id="26" name="enemy" type="enemy" x="480" y="576" width="96" height="96"/>
+  <object id="27" name="enemy" type="enemy" x="1344" y="864" width="96" height="96"/>
+  <object id="28" name="enemy" type="enemy" x="1440" y="1824" width="96" height="96"/>
+  <object id="29" name="enemy" type="enemy" x="672" y="1248" width="96" height="96"/>
+ </objectgroup>
+ <objectgroup id="7" name="items">
+  <object id="31" name="gun" type="item_gun" x="1632" y="864" width="96" height="96"/>
+  <object id="32" name="gun" type="item_gun" x="768" y="1536" width="96" height="96"/>
+  <object id="33" name="ammo" type="item_ammo_gun" x="480" y="1728" width="96" height="96"/>
+  <object id="34" name="ammo" type="item_ammo_gun" x="2016" y="1728" width="96" height="96"/>
+  <object id="35" name="ammo" type="item_ammo_gun" x="1536" y="288" width="96" height="96"/>
+  <object id="36" name="ammo" type="item_ammo_gun" x="960" y="672" width="96" height="96"/>
+  <object id="37" name="ammo" type="item_ammo_gun" x="1248" y="1920" width="96" height="96"/>
+  <object id="38" name="ammo" type="item_ammo_gun" x="576" y="288" width="96" height="96"/>
+  <object id="39" name="ammo" type="item_ammo_gun" x="1152" y="1248" width="96" height="96"/>
+  <object id="40" name="heart" type="item_heart" x="768" y="1920" width="96" height="96"/>
+  <object id="43" name="heart" type="item_heart" x="2112" y="1056" width="96" height="96"/>
+  <object id="46" name="mp5" type="item_mp5" x="384" y="288" width="96" height="96"/>
+  <object id="47" name="ammo_mp5" type="item_ammo_mp5" x="1824" y="1728" width="96" height="96"/>
+  <object id="48" name="granade" type="item_granade" x="1056" y="288" width="96" height="96"/>
+  <object id="49" name="first_aid_kit" type="item_first_aid_kit" x="384" y="1536" width="96" height="96"/>
+  <object id="50" name="first_aid_kit" type="item_first_aid_kit" x="1152" y="1728" width="96" height="96"/>
+  <object id="54" name="first_aid_kit" type="item_first_aid_kit" x="1248" y="1056" width="96" height="96"/>
+ </objectgroup>
+</map>
